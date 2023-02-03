@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: 'SportingGrotesqueBold';
+    font-weight: 400;
+    src: url('../../public/font/SportingGrotesque-Bold.otf') format('truetype');
+  }
+  @font-face {
+    font-family: SportingGrotesqueRegular;
+    src: url('../../public/font/SportingGrotesque-Regular.otf')
+      format('truetype');
+  }
+}
