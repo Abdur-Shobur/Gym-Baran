@@ -17,7 +17,7 @@ function page() {
     <div className="container mx-auto max-w-screen-xl">
       <Banner />
 
-      <div className="flex items-center my-28 ">
+      <div className="flex flex-col items-center my-28 ">
         <div className="w-[60%]">
           <Heading>
             Healthy in side <br /> fresh out side
@@ -35,7 +35,7 @@ function page() {
       </div>
 
       <div>
-        <div className="grid grid-cols-3 gap-20 bg-primary text-white p-16 rounded-2xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-20 bg-primary text-white p-16 rounded-2xl">
           <CardAbout
             img={<Image alt="icons" src={icons} className="w-20" />}
             heading="Get that 11 line in 30 days"
@@ -52,7 +52,7 @@ function page() {
         </div>
       </div>
 
-      <div className="flex justify-between items-center my-32">
+      <div className="flex flex-col justify-between items-center my-32">
         <div className="flex-1">
           <Image alt="img" src={bg_img} />
         </div>
@@ -71,7 +71,7 @@ function page() {
           <Button icon={<HiOutlineArrowRight className="text-xl" />} />
         </div>
       </div>
-      <div className="flex justify-between items-center my-32">
+      <div className="flex flex-col justify-between items-center my-32">
         <div className="flex-1">
           <div className="">
             <Heading>Best full body workout to lose fat</Heading>

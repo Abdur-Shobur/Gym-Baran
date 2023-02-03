@@ -2,10 +2,10 @@ import React from 'react'
 
 function Nav() {
   return (
-    <div className="container mx-auto max-w-screen-xl py-12">
+    <div className="container mx-auto max-w-screen-xl py-12 px-5">
       <div className="flex justify-between">
         <div>
-          <h1 className="text-primary font-SportingGrotesqueRegular text-xl">
+          <h1 className="text-primary font-SportingGrotesqueRegular text-xl ">
             <span className="bg-primary text-white px-2 rounded-xl mr-2">
               Gym
             </span>
@@ -13,7 +13,7 @@ function Nav() {
           </h1>
         </div>
         <div>
-          <ul className="flex gap-10 items-center">
+          <ul className="md:flex gap-10 items-center hidden">
             <li>Home</li>
             <li>Program</li>
             <li>Blog</li>

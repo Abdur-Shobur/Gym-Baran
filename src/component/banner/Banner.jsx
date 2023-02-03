@@ -18,12 +18,12 @@ import StyleCard2 from '../card/StyleCard2'
 import Button from '../common/Button'
 function Banner() {
   return (
-    <div className="flex justify-between gap-10">
-      <div className="flex-1 self-end">
-        <h1 className="font-SportingGrotesqueBold text-[56px] text-dark leading-tight">
+    <div className="flex flex-col lg:flex-row justify-between gap-10 px-5">
+      <div className="flex-1 lg:self-end">
+        <h1 className="font-SportingGrotesqueBold text-[56px] text-dark leading-tight max-w-xl">
           Healthy in side <span className="text-primary"> fresh</span> out side
         </h1>
-        <p className="text-dark w-3/4  mt-6">
+        <p className="text-dark  mt-6 max-w-xl">
           Exercise is a very important need for our body. Health and fitness
           will be obtained if you can do regular exercise and run a healthy
           routine.s
@@ -36,7 +36,7 @@ function Banner() {
           </button>
         </div>
         <div className="mt-10">
-          <h2 className="mb-3 text-dark">Brands: </h2>
+          <h2 className="mb-3 text-dark">Brands:</h2>
           <div className="flex gap-12 items-center">
             <Image className="w-14" src={nike} alt="nike" />
             <Image className="w-14" src={adidas} alt="adidas" />
@@ -45,7 +45,7 @@ function Banner() {
           </div>
         </div>
       </div>
-      <div className="flex-1 ">
+      <div className="flex-1">
         <div className="relative flex justify-center">
           <Image alt={'abc'} src={bg_img} className="z-20 min-w-[358px]" />
           <Image
