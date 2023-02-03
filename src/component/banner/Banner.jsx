@@ -46,30 +46,34 @@ function Banner() {
         </div>
       </div>
       <div className="flex-1">
-        <div className="relative flex justify-center">
-          <Image alt={'abc'} src={bg_img} className="z-20 min-w-[358px]" />
-          <Image
-            alt={'pic'}
-            src={rail}
-            className="absolute top-0 bottom-0 my-auto w-96 left-36 -z-20"
-          />
-          <Image
-            alt={'abc'}
-            src={vector}
-            className="absolute   bottom-0 -z-10"
-          />
-          <div className="w-[400px] h-[400px] rounded-full -z-40 bg-[#E6E5FF] absolute left-36 bottom-0 m-auto"></div>
-          <div className="absolute top-20 left-12 z-30">
-            <StyleCard />
-          </div>
-          <div className="absolute bottom-12 right-28 z-30">
-            <StyleCard2 />
-          </div>
-          <div className="absolute right-32 top-20 z-30">
-            <Image alt="sdf" src={shape} />
-          </div>
-          <div className="absolute left-0 bottom-0 z-30">
-            <Image alt="sdf" src={shape2} />
+        <div className=" flex justify-end">
+          <div className="relative mr-10">
+            <div className="z-50 min-w-[358px]">
+              <Image alt={'main pic'} src={bg_img} className="" />
+            </div>
+            <div className="">
+              <Image
+                alt={'rail'}
+                src={rail}
+                className="absolute top-0 bottom-0 right-12 my-auto z-10"
+              />
+            </div>
+            <div className="absolute bottom-0 !-z-10 w-[110%] -left-11">
+              <Image alt={'abc'} src={vector} className="" />
+            </div>
+            <div className="w-[400px] h-[400px] rounded-full -z-40 bg-[#E6E5FF] absolute -left-10 bottom-0 m-auto"></div>
+            <div className="absolute top-20 -left-36 z-30">
+              <StyleCard />
+            </div>
+            <div className="absolute bottom-12 -right-24 z-30">
+              <StyleCard2 />
+            </div>
+            <div className="absolute -right-16 top-20 z-30">
+              <Image alt="sdf" src={shape} />
+            </div>
+            <div className="absolute -left-52 bottom-0 z-30">
+              <Image alt="sdf" src={shape2} />
+            </div>
           </div>
         </div>
       </div>
