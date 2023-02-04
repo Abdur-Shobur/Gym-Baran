@@ -46,22 +46,22 @@ function Banner() {
         </div>
       </div>
       <div className="flex-1">
-        <div className=" flex justify-end">
-          <div className="relative mr-10">
-            <div className="z-50 min-w-[358px]">
+        <div className=" flex justify-center lg:justify-end">
+          <div className="relative lg:mr-10">
+            <div className="z-50 w-full lg:min-w-[358px]">
               <Image alt={'main pic'} src={bg_img} className="" />
             </div>
             <div className="">
               <Image
                 alt={'rail'}
                 src={rail}
-                className="absolute top-0 bottom-0 right-12 my-auto z-10"
+                className="absolute top-0 bottom-0 right-12 my-auto -z-10"
               />
             </div>
             <div className="absolute bottom-0 !-z-10 w-[110%] -left-11">
               <Image alt={'abc'} src={vector} className="" />
             </div>
-            <div className="w-[400px] h-[400px] rounded-full -z-40 bg-[#E6E5FF] absolute -left-10 bottom-0 m-auto"></div>
+            <div className="md:w-[400px] md:h-[400px] rounded-full -z-40 bg-[#E6E5FF] absolute -left-10 bottom-0 m-auto"></div>
             <div className="absolute top-20 -left-36 z-30">
               <StyleCard />
             </div>
